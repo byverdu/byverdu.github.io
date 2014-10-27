@@ -9,8 +9,15 @@
     {% include sidebar.html %}
 
     <div class="content container">
-  <a href="#" data-slidepanel="panel"><i class="fa fa-align-justify fa-fw"></i></a>
-  <a href="{{ site.baseurl }}" ><i class="fa fa-institution fa-fw"></i></a>
+  	
+  	<nav>
+  		<ul class="nav_bar">
+				<li><a href="#" data-slidepanel="panel"><i class="fa fa-align-justify fa-fw"></i></a></li>
+				<li><a href="{{ site.baseurl }}" ><i class="fa fa-institution fa-fw"></i></a></li>
+				<li><a href="/archive" ><i class="fa fa-archive fa-fw"></i></a></li>
+			</ul>
+  	</nav>
+      
       {{ content }}
     </div>
 
