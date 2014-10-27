@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Byverdu
+tagline:          'DevBlogByverdu'
+description:      'There is no place like GitHub'
+url:              http://byverdu.github.io/
+baseurl:          /
+
+author:
+  name:           'Albert Vallverdu'
+  url:            https://twitter.com/byverdu
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
