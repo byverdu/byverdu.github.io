@@ -5,14 +5,25 @@
 
   <body class="theme-base-08">
 
+
     {% include sidebar.html %}
 
     <div class="content container">
+  <a href="sidebar.html" data-slidepanel="panel">Show Panel</a>
       {{ content }}
     </div>
 
-    	<script src="public/js/main.js"></script>
+    	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    	<script src="{{ site.baseurl }}public/js/main.js"></script>
+    	<script src="{{ site.baseurl }}public/js/slide_tab.js"></script>
 
-	
+	<script type="text/javascript">
+      $(document).ready(function(){
+          $('[data-slidepanel]').slidepanel({
+              orientation: 'left',
+              mode: 'push'
+          });
+      });
+</script>
   </body>
 </html>
