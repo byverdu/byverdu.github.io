@@ -8,7 +8,7 @@
             display: none;
         }
         .cb_slide_panel.panel_left, .cb_slide_panel.panel_right {
-            width: 278px;
+            width: 330px;
             height: 100%;
         }
         .cb_slide_panel.panel_right {
@@ -61,7 +61,7 @@
             min-height: 300px;
             background: url(../img/ajax-loader.gif) no-repeat scroll 50% 50% transparent
         }
-        .cb_slide_panel h1 {
+/*        .cb_slide_panel h1 {
             color: #FFFFFF;
             font-size: 1.2em;
             margin: -0.15em 0 20px;
@@ -75,7 +75,7 @@
             padding: 1px 0 0;
             text-decoration: none;
             text-shadow: 0 1px 0 #1F5287;
-        }
+        }*/
         .cb_slide_panel ul {
             padding: 0 0 0 10px;
             list-style-type: none;
