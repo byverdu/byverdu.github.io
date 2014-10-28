@@ -5,7 +5,9 @@ title: Curriculum
 
 # Albert Vallverdu
 
-I am a Junior developer based in London that loves spend time with everything that is Tech related, lately I have found that what I really enjoy is coding.
+I am a Junior Web Developer based in London that loves spend time with all that is Tech related, lately I have found that what I really enjoy is coding.
+
+Since I read my first line of code back in 2012 I have been learning as much as I can about the world wide web, everything is much more clear after being a makers. After this experience I want to focus on a MEAN stack but keeping an eye in Ruby.
 
 ## Code examples 
 
@@ -19,12 +21,10 @@ Description about the process that take place when a costumer goes to a Restaura
 
 > [SpockLizard](http://spock-lizard.herokuapp.com/)
 
-Sinatra web app where you can play with the game Rock Paper Scissors Spock and Lizard. Unit tests using Jasmine and Integration tests using Capybara, the CSS files are compiled using Sass. 
+Sinatra web app where you can play with the game Rock Paper Scissors Spock and Lizard. Unit tests using Jasmine and Integration tests using Capybara, the CSS files are compiled using SCSS. 
 
 
 ## Web Development
-
-Since I read my first line of code in 2012 I have been learning as much as I can about the world wide web, everything is much more clear after being a makers. After this experience I want to focus on a MEAN stack(MongoDB, Express, Angular, Node) but keeping an eye in Ruby.
 
 ### Makers Academy Aug 2014 - Oct 2014
 
@@ -55,7 +55,7 @@ Since I read my first line of code in 2012 I have been learning as much as I can
 9. Version control with git and GitHub
 3. Nodejs with Express.
 2. WebSockets
-3. User authentication and authorisation with bcryp
+3. User authentication and authorization with bcryp
 2. Integration of APIs
 2. GitHub Flavoured Markdown
 2. Deployment to Heroku
@@ -67,10 +67,12 @@ You can see some of my previous work by [following this link](http://byverdu.es/
 
 ## Pre-Makers
 
-Before attending to Makers Academy I have been working as a Chef for more than ten years in all kind of  restaurants and hotels in Spain and United Kingdom.
+Before attending Makers Academy I have been working as a Chef for more than ten years in all kind of restaurants and hotels in Spain and the United Kingdom. 
 
 ## Other Degrees non related.
 
+1. Spanish Science degree.
+2. Two years course in [Mey's Hoffman](http://www.hofmann-bcn.com/en/mey-hofmann.html) restaurant.
 
 
 
@@ -89,10 +91,10 @@ You can reach `Albert Vallverdu Torrescasana` by using any of the forms below:
   <ul>
 		<li><a><i class="fa fa-phone"></i>  +44 7720 860376</a></li>
 		<li><a href="mailto:byverbu@gmail.com?subject=Say%20Hello%20to%20Albert"><i class="fa fa-send"></i>  Byverbu@gmail.com</a></li>
-		<li><a href="https://www.linkedin.com/in/albertbyverdu"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
-		<li><a href=""><i class="fa fa-github"></i>  Byverdu</a></li>
-		<li><a href=""><i class="fa fa-twitter"></i>  @Byverdu</a></li>
-		<li><a href=""><i class="fa fa-globe"></i>  Byverdu.es</a></li>
+		<li><a href="https://www.linkedin.com/in/albertbyverdu"><i class="fa fa-linkedin"></i> AlbertByverdu</a></li>
+		<li><a href="https://github.com/byverdu"><i class="fa fa-github"></i>  Byverdu</a></li>
+		<li><a href="https://twitter.com/byverdu"><i class="fa fa-twitter"></i>  @Byverdu</a></li>
+		<li><a href="http://byverdu.es"><i class="fa fa-globe"></i>  Hola Mundo Byverdu.es</a></li>
 	</ul>
 </div>
 
