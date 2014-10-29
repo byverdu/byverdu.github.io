@@ -4,8 +4,6 @@ layout: post
 title: How to start writing Scss
 ---
 
-How to start writing Scss. A really beginner tutorial.
-
 I really like writing CSS, even that I haven't never done a really large project I realized that sometimes you have to write the same rule over and over.
 
 Digging a little bit I have found out that out there is some useful tools to help you with this problem. Today I will talk about Sass that is based on Ruby.

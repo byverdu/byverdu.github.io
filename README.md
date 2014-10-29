@@ -10,5 +10,9 @@ A part from the main functionality that Hyde provides I have been adding some ex
 
 1. Slide side bar.
 2. Fontawesome.
-3. Scroll to top. 
+3. Higlight.js for code snippets
+4. Read more feature
+5. Coming soon
+6. Scroll to top
+7. ....
 
