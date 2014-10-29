@@ -14,10 +14,14 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.content | split:"<!-- more -->" | first | strip_html | truncate:300 }}
+      {% if post.content | size > 300 %}
+        <a href="{{post.url}}">Read more</a>
+      {% endif %}
   </div>
   {% endfor %}
 </div>
+
 
 <div class="pagination">
   {% if paginator.next_page %}
@@ -34,4 +38,7 @@ title: Home
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div>
+</div
+
+
+
