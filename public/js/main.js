@@ -4,4 +4,6 @@ $(document).ready(function() {
       orientation: 'left',
       mode: 'push'
   });
+
+  hljs.initHighlightingOnLoad();
 });
