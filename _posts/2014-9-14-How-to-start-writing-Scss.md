@@ -10,11 +10,6 @@ Digging a little bit I have found out that out there is some useful tools to hel
 
 <!-- more -->
 
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
 
 So, you are talking about Scss but you say Sass?
 
@@ -26,13 +21,13 @@ The idea behind is to follow the DRY (Don't Repeat Yourself) pattern and avoid h
 
 That's all, you have Sass installed. The most basic structure folder:
 
-<pre>
+{% highlight bash %}
 .
 └── app
     ├── sass
     │   └── style.scss
     └── style.css
-</pre>
+{% endhighlight %}
 
 You write your **scss** files and after compile them you have a really nice and clean **css** output.
 
@@ -50,29 +45,29 @@ sass --watch input.scss:output.cs
 
 There is a lot of cool things that you can do with Sass, for example using variables. 
 
-<pre><code>
+{% highlight scss %}
 $text_color: #123456;
     
 a     { color: $text_color; }
     
 .text { color: $text_color }
-</code></pre>
+{% endhighlight %}
 
 You can also play with arithmetic operations:
 
-<pre><code>
+{% highlight scss %}
 $width: 800px;
     
 .wrapper{ width: $width-50; } /* 750px */
     
 aside   { width: $width/2 }   /* 400px */
-</code></pre>
+{% endhighlight %}
 
 ---
 
 Scss will accept any valid css code and the possibility to nest rules, take a look to the following example:
 
-<pre><code class="css">
+{% highlight css %}
 .look_btn{
   text-decoration: none;
   text-align: center;
@@ -86,11 +81,11 @@ Scss will accept any valid css code and the possibility to nest rules, take a lo
   }
 }
 
-</code></pre>
+{% endhighlight %}
 
 Below is the CSS output. At the begining could seem that we write more (in fact we do) but the really power about this is that if we change any variable value will update automatically all the rules that contain that variable.
 
-<pre><code>
+{% highlight scss %}
 .look_btn {
   text-decoration: none;
   text-align: center;
@@ -103,13 +98,13 @@ Below is the CSS output. At the begining could seem that we write more (in fact 
     background: #ffffff;
     box-shadow: none; 
   }
-</code></pre>
+{% endhighlight %}
 
 ---
 
 You can extend rules to avoid writing the same code for two diferent elements.
 
-<pre><code class="css">
+{% highlight css %}
 .message{
   margin: 5px;
   padding: 5px;
@@ -124,11 +119,11 @@ You can extend rules to avoid writing the same code for two diferent elements.
 	@extend .message;
 	background-color: rgba(245,74,8,0.75);
 }
-</code></pre>
+{% endhighlight %}
 
 CSS output:
 
-<pre><code>
+{% highlight scss %}
 .message, .notice, .errors {
   margin: 5px;
   padding: 5px;
@@ -142,13 +137,13 @@ CSS output:
   background-color: rgba(245, 74, 8, 0.75); 
 }
   
- </code></pre>
+ {% endhighlight %}
  
  ---
  
  If you are repeating blocks of code you can always use mixins to help you out, they are functions where you place the code which will be called wherever you use it.
  
- <pre><code class="css">
+ {% highlight css %}
  @mixin link_style{
 	text-decoration: none;
 	color: red;
@@ -165,5 +160,5 @@ CSS output:
         border:  1px solid black;
         display: block;
 }
-</code></pre>
+{% endhighlight %}
  
