@@ -14,10 +14,7 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content | split:"<!-- more -->" | first | strip_html | truncate:300 }}
-      {% if post.content | size > 300 %}
-        <a href="{{post.url}}">Read more</a>
-      {% endif %}
+{% post.excerpt %}
   </div>
   {% endfor %}
 </div>
