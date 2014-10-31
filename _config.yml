@@ -28,3 +28,6 @@ excerpt_separator: "<!-- more -->"
 
 # Custom vars
 version:             1.0.0
+
+github:
+  repo:           https://github.com/byverdu/byverdu.github.io.git
