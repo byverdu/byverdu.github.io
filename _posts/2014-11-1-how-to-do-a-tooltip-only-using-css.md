@@ -31,18 +31,31 @@ First we set this couple of mixins that will be useful to avoid rewritting the a
 {% highlight scss %}
 // Mixins and variables for all tooltips examples
 
-@mixin set_arrow_tooltip{
+@mixin bubble_arrow_common{
  visibility: hidden;
  transition:visibility 0s ease-in 0.5s;
- content: '';
- color: transparent;
  position: absolute;
 }
 
+@mixin up_down_arrow_common{
+    border-right: 20px solid transparent;
+	 border-left: 20px  solid transparent;
+}
+
+@mixin right_left_arrow_common{
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+  top: 0;
+}
+
+@mixin set_arrow_tooltip{
+ @include bubble_arrow_common();
+ content: '';
+ color: transparent;
+}
+
 @mixin set_bubble_tooltip{
- visibility: hidden;
- transition:visibility 0s ease-in 0.5s;
- position: absolute;
+ @include bubble_arrow_common();
  box-shadow: 0px 0px 3px;
  padding: 7px;
  border-radius: 11px;
@@ -101,10 +114,9 @@ This first example is for the house icon
 	
 	&::before{
 		
-	@include set_arrow_tooltip();
+	    @include set_arrow_tooltip();
+		@include up_down_arrow_common();
 		border-top: 10px solid rgba(25,25,25,0.3);
-		border-right: 20px solid transparent;
-		border-left: 20px solid transparent;
 		top: -16px;
 		margin-left: -4px;
 	}
@@ -135,11 +147,10 @@ This second example is for the user icon
   &::before{
 	
 		@include set_arrow_tooltip();
+		@include up_down_arrow_common();
 		border-bottom: 10px solid rgba(25,25,25,0.3);
-		border-right: 20px solid transparent;
-		border-left: 20px solid transparent;
 		top: 42px;
-    margin-left: -7px;
+		margin-left: -7px;
   }
 
   &::after{
@@ -168,11 +179,9 @@ This third example is for the cogs icon
 	&::before{
 	
 		@include set_arrow_tooltip();
+		@include right_left_arrow_common();
 
-		border-bottom: 15px solid transparent;
-		border-top: 15px solid transparent;
 		border-left: 15px solid rgba(25,25,25,0.3);
-		top: 0;
 		margin-left: -20px;
  }
 
@@ -202,11 +211,9 @@ This fourth example is for the cogs icon
 	&::before{
 	
 		@include set_arrow_tooltip();
+		@include right_left_arrow_common();
 
-		border-bottom: 15px solid transparent;
-		border-top: 15px solid transparent;
 		border-right: 15px solid rgba(25,25,25,0.3);
-		top: 0;
 		margin-left: 40px;
   }
 
@@ -225,6 +232,7 @@ This fourth example is for the cogs icon
 {% endhighlight %} 
 
 
+To take a look to the compile CSS [Click here](https://github.com/byverdu/byverdu.github.io/blob/master/demos/tool_tip.css)
 
 
 ### Live demo

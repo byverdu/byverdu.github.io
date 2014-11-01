@@ -22,6 +22,7 @@ author:
 paginate:         5
 
 sass:
+  sass_dir: _sass
   style: :compressed
 
 excerpt_separator: "<!-- more -->"
