@@ -154,6 +154,74 @@ This second example is for the user icon
   @include show_tooltip();
 }
 
+{% endhighlight %}
+
+
+#### <i class="fa fa-css3"></i> SCSS example for left tooltip
+
+This third example is for the cogs icon
+
+{% highlight scss %}
+
+#settings{
+
+	&::before{
+	
+		@include set_arrow_tooltip();
+
+		border-bottom: 15px solid transparent;
+		border-top: 15px solid transparent;
+		border-left: 15px solid rgba(25,25,25,0.3);
+		top: 0;
+		margin-left: -20px;
+ }
+
+  &::after{
+
+	  @include set_bubble_tooltip();
+	  content: "Settings";
+	  top:  -7px;
+	  left: -26px;
+	  background-color: rgba(172,65,66,0.3);
+  }
+
+  @include show_tooltip();
+}
+
+{% endhighlight %} 
+
+
+#### <i class="fa fa-css3"></i> SCSS example for right tooltip
+
+This fourth example is for the cogs icon
+
+{% highlight scss %}
+
+#archive{
+
+	&::before{
+	
+		@include set_arrow_tooltip();
+
+		border-bottom: 15px solid transparent;
+		border-top: 15px solid transparent;
+		border-right: 15px solid rgba(25,25,25,0.3);
+		top: 0;
+		margin-left: 40px;
+  }
+
+  &::after{
+
+	  @include set_bubble_tooltip();
+	  content: "Archive";
+	  top:  -7px;
+	  right: -82px;
+	  background-color: rgba(172,65,66,0.3);
+  }
+
+  @include show_tooltip();
+}
+
 {% endhighlight %} 
 
 
@@ -161,7 +229,7 @@ This second example is for the user icon
 
 ### Live demo
 
-> All my measures are hard coded so probably you will need to fix them.
+> All my pixel measures are hard coded so probably you will need to fix them if you are planning to use it.
 
 <nav id="pop_up_demo">
  <ul class="nav_bar">
