@@ -6,7 +6,7 @@ title: How to do a tooltip only using CSS
 
 After working in a project I have been using a lot the CSS pseudo-elements `:after` and `:before` and as well doing triangles with CSS borders. Then something crossed my head, let's do a CSS pop up.
 
-After finished my bootcamp programming there is one thing that I have realized, that I got an acceptable understanding in CSS.
+After finished my bootcamp programming there is one thing that I have realized, I got an acceptable understanding in CSS.
 
 <!-- more -->
 
