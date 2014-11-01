@@ -15,9 +15,10 @@ After finished my bootcamp programming there is one thing that I have realized, 
 {% highlight scss %}
 <nav id="container">
  <ul class="nav_bar">
-  <li id="home"><a href="#"><i class="fa fa-home"></i></a></li>
-	<li><a href="/about" ><i class="fa fa-user"></i></a></li>
-	<li><a href="/archive" ><i class="fa fa-archive fa-fw"></i></a></li>
+  <li id="settings"> <i class="fa fa-cogs"></i>    </li>
+  <li id="home">     <i class="fa fa-home"></i>    </li>
+  <li id="about">    <i class="fa fa-user"></i>    </li>
+  <li id="archive">  <i class="fa fa-archive"></i> </li>
  </ul>
 </nav>
 {% endhighlight %} 
@@ -57,9 +58,10 @@ First we set this couple of mixins that will be useful to avoid rewritting the a
 
 {% endhighlight %} 
 
-#### <i class="fa fa-css3"></i> The SCSS file
 
-This first example is for the house icon, a top tooltip
+#### <i class="fa fa-css3"></i> SCSS example styling container
+
+
 
 {% highlight scss %}
 
@@ -69,51 +71,66 @@ This first example is for the house icon, a top tooltip
  width: 350px;
  margin: 0 auto;
 
- #home{
+ .nav_bar{
+   list-style: none;
+	 display: flex;
+
+	 li{
+		margin-left: 40px;
+      
+    i{
+      font-size: 34px;
+      color: #ac4142
+		}
+	 }
+	}
+}
+
+{% endhighlight %} 
+
+
+
+
+#### <i class="fa fa-css3"></i> SCSS example for top tooltip
+
+This first example is for the house icon
+
+{% highlight scss %}
+
+#home{
+	
+	&::before{
 		
-  &::before{
-			
-	 @include set_arrow_tooltip();
+	@include set_arrow_tooltip();
 		border-top: 10px solid rgba(25,25,25,0.3);
 		border-right: 20px solid transparent;
 		border-left: 20px solid transparent;
 		top: -16px;
-    margin-left: -4px;
-	 }
+		margin-left: -4px;
+	}
 
-	 &::after{
+	&::after{
 
 		@include set_bubble_tooltip();
 		content: "Home";
 		top: -60px;
 		left: 62px;
 		background-color: rgba(172,65,66,0.3);
-	 }
-		
-  @include show_tooltip();
- }
+	}
+	
+ @include show_tooltip();
 }
+
 {% endhighlight %} 
 
 
-#### <i class="fa fa-css3"></i> The SCSS file
+#### <i class="fa fa-css3"></i> SCSS example for bottom tooltip
 
-This second example is for the user icon, a bottom tooltip
+This second example is for the user icon
 
 {% highlight scss %}
 
-#container{
-  
- position:relative;
- width: 350px;
- margin: 0 auto;
-
- #home{
-	
-	// Previous example
- }
-
- #user{
+#about{
 
   &::before{
 	
@@ -136,7 +153,7 @@ This second example is for the user icon, a bottom tooltip
 
   @include show_tooltip();
 }
-}
+
 {% endhighlight %} 
 
 
@@ -148,9 +165,10 @@ This second example is for the user icon, a bottom tooltip
 
 <nav id="pop_up_demo">
  <ul class="nav_bar">
-  <li id="home"><i class="fa fa-home"></i></li>
-	<li id="user"><i class="fa fa-user"></i></li>
-	<li><i class="fa fa-archive fa-fw"></i></li>
+  <li id="settings"> <i class="fa fa-cogs"></i>    </li>
+  <li id="home">     <i class="fa fa-home"></i>    </li>
+	<li id="about">    <i class="fa fa-user"></i>    </li>
+	<li id="archive">  <i class="fa fa-archive"></i> </li>
  </ul>
 </nav>
 

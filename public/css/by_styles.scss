@@ -4,18 +4,22 @@
 
 // Mixins and variables
 
-@mixin set_arrow_tooltip{
+@mixin bubble_arrow_common{
   visibility: hidden;
 	transition:visibility 0s ease-in 0.5s;
+	position: absolute;
+}
+
+@mixin set_arrow_tooltip{
+	
+	@include bubble_arrow_common();
 	content: '';
   color: transparent;
-  position: absolute;
 }
 
 @mixin set_bubble_tooltip{
-	visibility: hidden;
-	transition:visibility 0s ease-in 0.5s;
-	position: absolute;
+  
+  @include bubble_arrow_common();
 	box-shadow: 0px 0px 3px;
 	padding: 7px;
 	border-radius: 11px;
@@ -54,54 +58,6 @@
 	width: 350px;
 	margin: 80px auto;
 
-	#home{
-	
-	  &::before{
-			
-			@include set_arrow_tooltip();
-			border-top: 10px solid rgba(25,25,25,0.3);
-			border-right: 20px solid transparent;
-			border-left: 20px solid transparent;
-			top: -16px;
-      margin-left: -4px;
-		}
-
-		&::after{
-
-			@include set_bubble_tooltip();
-			content: "Home";
-			top: -60px;
-			left: 62px;
-			background-color: rgba(172,65,66,0.3);
-		}
-		
-		@include show_tooltip();
-	}
-
-	#user{
-  
-	  &::before{
-		
-			@include set_arrow_tooltip();
-			border-bottom: 10px solid rgba(25,25,25,0.3);
-			border-right: 20px solid transparent;
-			border-left: 20px solid transparent;
-			top: 42px;
-	    margin-left: -7px;
-	  }
-
-	  &::after{
-
-		  @include set_bubble_tooltip();
-		  content: "About";
-		  top:  53px;
-		  left: 130px;
-		  background-color: rgba(172,65,66,0.3);
-	  }
-
-    @include show_tooltip();
-	}
-
 	.nav_bar{
 		list-style: none;
 		display: flex;
@@ -113,10 +69,55 @@
       	font-size: 34px;
       	color: #ac4142
 			}
-      &:last-child{
-      	color: #4DB5D6
-      }
-
 		}
 	}
+}
+
+#home{
+
+  &::before{
+		
+		@include set_arrow_tooltip();
+		border-top: 10px solid rgba(25,25,25,0.3);
+		border-right: 20px solid transparent;
+		border-left: 20px solid transparent;
+		top: -16px;
+    margin-left: -4px;
+	}
+
+	&::after{
+
+		@include set_bubble_tooltip();
+		content: "Home";
+		top: -60px;
+		left: 138px;
+		background-color: rgba(172,65,66,0.3);
+	}
+	
+	@include show_tooltip();
+}
+
+
+#about{
+
+  &::before{
+	
+		@include set_arrow_tooltip();
+		border-bottom: 10px solid rgba(25,25,25,0.3);
+		border-right: 20px solid transparent;
+		border-left: 20px solid transparent;
+		top: 42px;
+    margin-left: -7px;
+  }
+
+  &::after{
+
+	  @include set_bubble_tooltip();
+	  content: "About";
+	  top:  53px;
+	  left: 207px;
+	  background-color: rgba(172,65,66,0.3);
+  }
+
+  @include show_tooltip();
 }
