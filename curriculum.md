@@ -54,7 +54,6 @@ Sinatra web app where you can play with the game Rock Paper Scissors Spock and L
 3. Sinatra and DataMapper
 9. Version control with git and GitHub
 3. Nodejs with Express.
-2. WebSockets
 3. User authentication and authorization with bcryp
 2. Integration of APIs
 2. GitHub Flavoured Markdown
