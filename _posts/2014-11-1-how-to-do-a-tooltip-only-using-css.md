@@ -13,6 +13,8 @@ After finished my bootcamp programming there is one thing that I have realized, 
 #### <i class="fa fa-html5"></i> The HTML file
 
 {% highlight scss %}
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 <nav id="container">
  <ul class="nav_bar">
   <li id="settings"> <i class="fa fa-cogs"></i>    </li>
