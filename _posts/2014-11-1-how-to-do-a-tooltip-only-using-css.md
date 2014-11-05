@@ -32,41 +32,53 @@ First we set this couple of mixins that will be useful to avoid rewritting the a
 // Mixins and variables for all tooltips examples
 
 @mixin bubble_arrow_common{
- visibility: hidden;
- transition:visibility 0s ease-in 0.5s;
- position: absolute;
+    visibility:   hidden;
+	transition:   visibility 0s ease-in 0.5s;
+	position:     absolute;
 }
 
-@mixin up_down_arrow_common{
-    border-right: 20px solid transparent;
-	 border-left: 20px  solid transparent;
+@mixin up_down_arrow_common($top,$margin-left){
+
+	top: $top;
+	margin-left:  $margin-left;
+	border-right: 20px solid transparent;
+	border-left:  20px  solid transparent;
 }
 
-@mixin right_left_arrow_common{
+@mixin right_left_arrow_common($margin-left){
+  top:           0;
+  margin-left:   $margin-left;
   border-bottom: 15px solid transparent;
-  border-top: 15px solid transparent;
-  top: 0;
+  border-top:    15px solid transparent;
 }
 
 @mixin set_arrow_tooltip{
- @include bubble_arrow_common();
- content: '';
- color: transparent;
+	color:   transparent;
+	content: '';
+	@include bubble_arrow_common();
 }
 
-@mixin set_bubble_tooltip{
- @include bubble_arrow_common();
- box-shadow: 0px 0px 3px;
- padding: 7px;
- border-radius: 11px;
+@mixin set_bubble_tooltip($content,$top,$left){
+  
+  @include bubble_arrow_common();
+  content:          $content;
+  background-color: rgba(172,65,66,0.3);
+  font-size:        20px;
+  box-shadow:       0px 0px 3px;
+  padding:          7px;
+  border-radius:    11px;
+  top:              $top;
+  left:             $left;
+
 }
 
 @mixin show_tooltip{
- 
- &:hover::before,
- &:hover::after {
-	visibility: visible;
- }
+
+	&:hover::before,
+	&:hover::after {
+		visibility: visible;
+
+	}
 }
 
 {% endhighlight %} 
@@ -111,26 +123,21 @@ This first example is for the house icon
 {% highlight scss %}
 
 #home{
-	
-	&::before{
+
+  &::before{
 		
-	    @include set_arrow_tooltip();
-		@include up_down_arrow_common();
+		@include set_arrow_tooltip();
+		@include up_down_arrow_common(-16px,-4px);
+		
 		border-top: 10px solid rgba(25,25,25,0.3);
-		top: -16px;
-		margin-left: -4px;
 	}
 
 	&::after{
 
-		@include set_bubble_tooltip();
-		content: "Home";
-		top: -60px;
-		left: 62px;
-		background-color: rgba(172,65,66,0.3);
+		@include set_bubble_tooltip("Home",-60px,138px);
 	}
 	
- @include show_tooltip();
+	@include show_tooltip();
 }
 
 {% endhighlight %} 
@@ -147,19 +154,14 @@ This second example is for the user icon
   &::before{
 	
 		@include set_arrow_tooltip();
-		@include up_down_arrow_common();
+		@include up_down_arrow_common(42px,-7px);
+		
 		border-bottom: 10px solid rgba(25,25,25,0.3);
-		top: 42px;
-		margin-left: -7px;
   }
 
   &::after{
 
-	  @include set_bubble_tooltip();
-	  content: "About";
-	  top:  53px;
-	  left: 130px;
-	  background-color: rgba(172,65,66,0.3);
+	  @include set_bubble_tooltip("About",53px,207px);
   }
 
   @include show_tooltip();
@@ -179,20 +181,15 @@ This third example is for the cogs icon
 	&::before{
 	
 		@include set_arrow_tooltip();
-		@include right_left_arrow_common();
-
+		@include right_left_arrow_common(-20px);
+		
 		border-left: 15px solid rgba(25,25,25,0.3);
-		margin-left: -20px;
- }
+  }
 
   &::after{
 
-	  @include set_bubble_tooltip();
-	  content: "Settings";
-	  top:  -7px;
-	  left: -26px;
-	  background-color: rgba(172,65,66,0.3);
-  }
+	  @include set_bubble_tooltip("Settings",-7px,-26px);
+	}
 
   @include show_tooltip();
 }
@@ -211,19 +208,16 @@ This fourth example is for the cogs icon
 	&::before{
 	
 		@include set_arrow_tooltip();
-		@include right_left_arrow_common();
+		@include right_left_arrow_common(40px);
 
 		border-right: 15px solid rgba(25,25,25,0.3);
-		margin-left: 40px;
   }
 
   &::after{
 
-	  @include set_bubble_tooltip();
-	  content: "Archive";
-	  top:  -7px;
+	  @include set_bubble_tooltip("Archive",-7px,inherit);
 	  right: -82px;
-	  background-color: rgba(172,65,66,0.3);
+	  
   }
 
   @include show_tooltip();
