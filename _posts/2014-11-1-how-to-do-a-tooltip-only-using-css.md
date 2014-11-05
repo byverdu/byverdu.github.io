@@ -199,7 +199,7 @@ This third example is for the cogs icon
 
 #### <i class="fa fa-css3"></i> SCSS example for right tooltip
 
-This fourth example is for the cogs icon
+This fourth example is for the archive icon
 
 {% highlight scss %}
 
