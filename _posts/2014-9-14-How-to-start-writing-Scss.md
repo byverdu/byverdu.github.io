@@ -13,7 +13,7 @@ Digging a little bit I have found out that out there is some useful tools to hel
 
 So, you are talking about Scss but you say Sass?
 
-It's basically the same, for a better understanding read this post: [http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better]()
+It's basically the same, for a better understanding read this post: [Sass and Scss big differences](http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better)
 
 The idea behind is to follow the DRY (Don't Repeat Yourself) pattern and avoid having really large files. Sass is a ``ruby gem`` but you don't have to know anything about ruby, only opening a terminal window and type:
 
