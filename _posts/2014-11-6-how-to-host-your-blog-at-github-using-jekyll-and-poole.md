@@ -237,6 +237,8 @@ Sources
 
 [Github pages](https://pages.github.com/)
 
+[Jekyll](http://jekyllrb.com/)
+
 [joshualande.com](http://joshualande.com/jekyll-github-pages-poole/)
 
 [Sass and Jekyll](http://markdotto.com/2014/09/25/sass-and-jekyll/)
