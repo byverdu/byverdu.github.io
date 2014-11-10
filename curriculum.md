@@ -11,6 +11,10 @@ Since I read my first line of code back in 2012 I have been learning as much as 
 
 ## Code examples 
 
+> [MakersAcademy Employers page](http://www.makersacademy.com/employers)
+
+After I finished at @MakersAcademy I had the opportunity to implement the new design for the MakersAcademy employers page, great challenge converting a psd file into a fully functional web page only using Sass.
+
 > [SparkPrinter](http://spark-print-staging.herokuapp.com/)
 
 Final project at @MakersAcademy, Our team used [The Spark Core](https://www.spark.io/), a Wi-Fi development kit that lets you connect products using the cloud. Our project consists in integrate a RFID-enabled device with the Spark core and a printer. A user can setup his preferences and printing them by passing a RFID card.
