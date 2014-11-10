@@ -13,7 +13,10 @@ Since I read my first line of code back in 2012 I have been learning as much as 
 
 > [MakersAcademy Employers page](http://www.makersacademy.com/employers)
 
+[Sample images for old/new design](/demos/cv_images)
+
 After I finished at @MakersAcademy I had the opportunity to implement the new design for the MakersAcademy employers page, great challenge converting a psd file into a fully functional web page only using Sass.
+
 
 > [SparkPrinter](http://spark-print-staging.herokuapp.com/)
 
