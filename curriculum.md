@@ -7,7 +7,7 @@ title: Curriculum
 
 I am a Junior Web Developer based in London that loves spend time with all that is Tech related, lately I have found that what I really enjoy is coding.
 
-Since I read my first line of code back in 2012 I have been learning as much as I can about the world wide web, everything is much more clear after being a makers. After this experience I want to focus on a MEAN stack but keeping an eye in Ruby.
+Since I read my first line of code back in 2012 I have been learning as much as I can about the world wide web, everything is much more clear after attending [MakersAcademy](http://www.makersacademy.com). After this experience I want to focus on a MEAN stack but keeping an eye in Ruby.
 
 ## Code examples 
 
@@ -57,6 +57,7 @@ Sinatra web app where you can play with the game Rock Paper Scissors Spock and L
 1. Ruby
 3. HTML5, Erb and Jade
 4. Sass, Stylus and CSS3
+2. CSS3 frameworks (Twitter Bootstrap and Foundation)
 2. PostgreSQL
 3. Sinatra and DataMapper
 9. Version control with git and GitHub
@@ -66,8 +67,7 @@ Sinatra web app where you can play with the game Rock Paper Scissors Spock and L
 2. GitHub Flavoured Markdown
 2. Deployment to Heroku
 2. Mac OS X 
-2. Command Line Interface
-2. Sublime Text 
+2. Command Line Interface 
 
 You can see some of my previous work by [following this link](http://byverdu.es/portfolio).
 
