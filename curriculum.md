@@ -47,27 +47,52 @@ Sinatra web app where you can play with the game Rock Paper Scissors Spock and L
 
 ## Programming Skills
 
-1. Object­ oriented principles and design
-1. Test­ driven development
-1. Agile principles
-2. Pair programming
-1. Unit testing with RSpec, Jasmine and Mocha
-2. Integration testing with Capybara
-2. JavaScript and jQuery
-1. Ruby
-3. HTML5, Erb and Jade
-4. Sass, Stylus and CSS3
-2. CSS3 frameworks (Twitter Bootstrap and Foundation)
-2. PostgreSQL
-3. Sinatra and DataMapper
-9. Version control with git and GitHub
-3. Nodejs with Express.
-3. User authentication and authorization with bcryp
-2. Integration of APIs
-2. GitHub Flavoured Markdown
-2. Deployment to Heroku
-2. Mac OS X 
-2. Command Line Interface 
+<table>
+	<tr>
+		<td>Object­ oriented principles and design</td>
+		<td>Test­ Driven Development</td>
+	</tr>
+	<tr>
+		<td>Agile principles</td>
+		<td>Pair programming</td>
+	</tr>
+	<tr>
+		<td>Unit testing with RSpec, Jasmine and Mocha</td>
+		<td>Integration testing with Capybara</td>
+	</tr>
+	<tr>
+		<td>JavaScript and jQuery</td>
+		<td>Ruby</td>
+	</tr>
+	<tr>
+		<td>Sinatra and DataMapper</td>
+		<td>Nodejs with Express</td>
+	</tr>
+	<tr>
+		<td>HTML5, Erb and Jade</td>
+		<td>Sass, Stylus and CSS3</td>
+	</tr>
+	<tr>
+		<td>Twitter Bootstrap and Foundation</td>
+		<td>Integration of APIs</td>
+	</tr>
+	<tr>
+		<td>PostgreSQL</td>
+		<td>CouchDB</td>
+	</tr>
+	<tr>
+		<td>Version control with git and GitHub</td>
+		<td>GitHub Flavoured Markdown</td>
+	</tr>
+	<tr>
+		<td>Deployment to Heroku</td>
+		<td>User authentication and authorization with bcryp</td>
+	</tr>
+	<tr>
+		<td>Command Line Interface</td>
+		<td>Mac OS X</td>
+	</tr>
+</table>
 
 You can see some of my previous work by [following this link](http://byverdu.es/portfolio).
 
