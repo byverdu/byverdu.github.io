@@ -23,7 +23,7 @@ title: Curriculum
 
 I am a Junior Web Developer based in London that loves spend time with all that is Tech related, lately I have found that what I really enjoy is coding.
 
-Since I read my first line of code back in 2012 I have been learning as much as I can about the world wide web, everything is much more clear after attending [MakersAcademy](http://www.makersacademy.com). After this experience I want to focus on a MEAN stack but keeping an eye in Ruby.
+Since I read my first line of code back in 2012 I have been learning as much as I can about the world wide web, everything is much more clear after attending [MakersAcademy](http://www.makersacademy.com). After this experience I want to focus on a MEAN stack but keeping an eye in Ruby,  now I can not concede any code without being tested.
 
 ## Code examples 
 
