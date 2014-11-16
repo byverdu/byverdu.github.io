@@ -4,9 +4,9 @@ layout: post
 title: e2e tests with protractor and mocha.
 ---
 
-I have just started testing for the last 4 months and I really see the point about it. Now, writing code without testing it before feels like if I am doing it wrong. The only problem is that get used to test takes time (at least for me).
+I have just started testing for the last 4 months and I really see the point about it. Now, writing code without testing it before feels like that I am doing it wrong. The only problem is that get used to test takes time (at least for me).
 
-During the bootcamp that I have been attending, all the tests used to be in ruby using `RSpec` and `Capybara`. That was really pleasant if you compare it with javascript. Like I want to work with javascript I need to get used it, so.
+During the bootcamp that I attended, the tests were written in ruby using `RSpec` and `Capybara`. That was really pleasant if you compare it with javascript. Like I want to work with javascript I need to get used it, so.
 
 <!-- more -->
 
