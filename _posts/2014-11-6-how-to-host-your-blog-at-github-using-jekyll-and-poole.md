@@ -152,7 +152,7 @@ title: How to host your blog at GitHub using Jekyll and Poole
 --- 
 {% endhighlight %}
 
-If you want to add the `<!-- read more -->` feature to your blog you only need to add the `excerpt_separator` property to your `_config.yml` and in your `index.html` change &#123;&#123; post.content &#125;&#125; by &#123;&#123; post.excerpt &#125;&#125;
+If you want to add the `<!-- read more -->` feature to your blog you only need to add the `excerpt_separator` property to your `_config.yml` and in your `index.html` change {% raw %} {{post.content}}  by  {{post.excerpt}} {% endraw %}
 
 
 ##### <i class="fa fa-cog"></i> Add Google Analytics and Disquss
@@ -195,9 +195,9 @@ To do this step we are going to work with the `_include folder`. We need to crea
 
 {% endhighlight %}
 
-Now we need to add &#123;% include google_analytics.html % &#125; in your ` _include/head.html`
+Now we need to add {% raw %} {% include google_analytics.html %} in your ` _include/head.html`
 
-and &#123;% include disquss.html  %&#125; in your `_layouts/post.hmtl` 
+and {% include disquss.html  %} {% endraw %} in your `_layouts/post.hmtl` 
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>Start a repo that contains your blog.</li>
