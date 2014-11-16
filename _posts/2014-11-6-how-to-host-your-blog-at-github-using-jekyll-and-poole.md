@@ -6,7 +6,7 @@ layout: post
 title: How to host your blog at GitHub using Jekyll and Poole
 ---
 
-After I have finished my programming bootcamp I have realized some things, the first one is that I love Git and the version control (commit and commit), the second one is that I love too spending time with the Command Line Interface (talking directly with the OS) and the latest but not the less important I LOVE CODING.
+Lately I have realized some things, the first one is that I love Git and the version control (commit and commit), the second one is that I love too spending time with the Command Line Interface (talking directly with the OS) and the latest but not the less important I LOVE CODING.
 
 <!-- more -->
 
