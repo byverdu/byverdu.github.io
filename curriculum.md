@@ -108,6 +108,9 @@ Sinatra web app where you can play with the game Rock Paper Scissors Spock and L
 		<td>Command Line Interface</td>
 		<td>Mac OS X</td>
 	</tr>
+	<tr>
+		<td colspan="2">Ability to translate designs into functional webpages with PhotoShop</td>
+	</tr>
 </table>
 
 You can see some of my previous work by [following this link](http://byverdu.es/portfolio).
@@ -118,7 +121,7 @@ Before attending Makers Academy I have been working as a Chef for more than ten 
 
 ## Other Degrees non related.
 
-1. Spanish Science degree.
+1. Spanish Bachelor degree in Science.
 2. Two years course in [Mey's Hoffman](http://www.hofmann-bcn.com/en/mey-hofmann.html) restaurant.
 
 
