@@ -21,9 +21,21 @@ title: Curriculum
 	</ul>
 </div>
 
-I am a Junior Web Developer based in London that loves spend time with all that is Tech related, lately I have found that what I really enjoy is coding.
 
-Since I read my first line of code back in 2012 I have been learning as much as I can about the world wide web, everything is much more clear after attending [MakersAcademy](http://www.makersacademy.com). After this experience I want to focus on a MEAN stack but keeping an eye in Ruby,  now I can not concede any code without being tested.
+I am a Junior Web Developer based in London that loves to spend time with all that is tech-related; lately I have found that what I really enjoy is coding.
+
+Since I read my first line of code back in 2012 I have been learning as much as I can about the world wide web. Everything is much more clear after attending Makers Academy. After this experience I want to focus on a MEAN stack and use Test Driven Development to write my code.
+
+## Web Development
+
+#### `Makers Academy Aug 2014 - Oct 2014`
+
+I attended this twelve week web programming bootcamp, focused on learning full stack web development using cutting edge technologies.
+
+#### `JavaScript course at UOC Sept 2012 - Dec 2012`
+
+I completed this Front End development trimester at Open University Catalonia mainly focused in Javascript, this is the [Final Project](http://mycoffice.es/web-project/).
+
 
 ## Code examples 
 
@@ -47,109 +59,79 @@ Description about the process that take place when a costumer goes to a Restaura
 Sinatra web app where you can play with the game Rock Paper Scissors Spock and Lizard. Unit tests using Jasmine and Integration tests using Capybara, the CSS files are compiled using SCSS. 
 
 
-## Web Development
-
-### Makers Academy Aug 2014 - Oct 2014
-
-2. Twelve weeks web programming Bootcamp.
-2. Cutting edge technologies.
-2. Full Stack Development. 
-
-### JavaScript course at UOC Sept 2012 - Dec 2012
-
-1. Trimester at Open University Catalonia.
-2. Front End development, mainly focus in Javascript.
-3. [Final Project](http://mycoffice.es/web-project/)
-
 ## Programming Skills
 
 <table>
+	<th colspan="2">
+		Proficient
+	</th>
 	<tr>
-		<td>Object­ oriented principles and design</td>
-		<td>Test­ Driven Development</td>
-	</tr>
-	<tr>
-		<td>Agile principles</td>
-		<td>Pair programming</td>
-	</tr>
-	<tr>
-		<td>Unit testing with RSpec, Jasmine and Mocha</td>
-		<td>Integration testing with Capybara</td>
+		<td>CSS preprocessors</td>
+		<td>HTML templating</td>
 	</tr>
 	<tr>
 		<td>JavaScript and jQuery</td>
-		<td>Ruby</td>
-	</tr>
-	<tr>
-		<td>Sinatra and DataMapper</td>
-		<td>Nodejs with Express</td>
-	</tr>
-	<tr>
-		<td>HTML5, Erb and Jade</td>
-		<td>Sass, Stylus and CSS3</td>
-	</tr>
-	<tr>
 		<td>Twitter Bootstrap and Foundation</td>
-		<td>Integration of APIs</td>
-	</tr>
-	<tr>
-		<td>PostgreSQL</td>
-		<td>CouchDB</td>
-	</tr>
-	<tr>
-		<td>Version control with git and GitHub</td>
-		<td>GitHub Flavoured Markdown</td>
-	</tr>
-	<tr>
-		<td>Deployment to Heroku</td>
-		<td>User authentication and authorization with bcryp</td>
 	</tr>
 	<tr>
 		<td>Command Line Interface</td>
 		<td>Mac OS X</td>
 	</tr>
+	<th colspan="2">
+		Competent
+	</th>
 	<tr>
-		<td colspan="2">Ability to translate designs into functional webpages with PhotoShop</td>
+		<td>System Version Control with git</td>
+		<td>Test­ driven development</td>
+	</tr>
+	<tr>
+		<td>Unit testing, RSpec, Jasmine and Mocha</td>
+		<td>Integration testing with Capybara</td>
+	</tr>
+	<tr>
+		<td>Nodejs with Express</td>
+		<td>Ruby and Sinatra</td>
+	</tr>
+	<th colspan="2">
+		Advanced Beginner
+	</th>
+	<tr>
+		<td>Object­ oriented principles and design</td>
+		<td>Agile principles</td>
+	</tr>
+	<tr>
+		<td>Pair programming</td>
+		<td>PostgreSQL, CouchDB, MongoDB</td>
+	</tr>
+	<tr>
+		<td>Integration of APIs</td>
+		<td>GitHub Flavoured Markdown</td>
+	</tr>
+	<tr>
+	<td colspan="2">Ability to translate designs into functional webpages with PhotoShop</td>
 	</tr>
 </table>
 
 You can see some of my previous work by [following this link](http://byverdu.es/portfolio).
 
-## Pre-Makers
+## Languages
 
-Before attending Makers Academy I have been working as a Chef for more than ten years in all kind of restaurants and hotels in Spain and the United Kingdom. 
-
-## Other Degrees non related.
-
-1. Spanish Bachelor degree in Science.
-2. Two years course in [Mey's Hoffman](http://www.hofmann-bcn.com/en/mey-hofmann.html) restaurant.
-
-
-
-## Idioms
-
-1. English, fluent written and speaking.
+1. English, fluent, advance professional level.
 2. Spanish, native speaker.
-2. Catalan, native speaker.
+3. Catalan, native speaker.
 
+## Pre-Makers Academy
 
+Before attending Makers Academy I had been working as a Chef for more than ten years in all kinds of restaurants and hotels in Spain and the United Kingdom.
 
+## Education
 
+- Spanish Bachelor degree in Science. 1994-1998
+- Two years course in Mey's Hoffman restaurant. 2000-2002
+- Two years of vocational training in Electricity and Network installations. 2005-2007
+- Mac Integration Basics 10.6 OS X.  2011 
 
+## What Albert does when he is not coding?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+I enjoy climbing, running outdoors, watch Tv series and read some tweets.
 
