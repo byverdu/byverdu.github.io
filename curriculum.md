@@ -126,7 +126,7 @@ Before attending Makers Academy I had been working as a Chef for more than ten y
 
 ## Education
 
-- Spanish Bachelor degree in Science. 1994-1998
+- International Baccalaureate in Science. 1994-1998
 - Two years course in Mey's Hoffman restaurant. 2000-2002
 - Two years of vocational training in Electricity and Network installations. 2005-2007
 - Mac Integration Basics 10.6 OS X.  2011 
