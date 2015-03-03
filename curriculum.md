@@ -21,43 +21,49 @@ title: Curriculum
 	</ul>
 </div>
 
+I am a highly motivated and fast learner that is seeking a position into the web development world so I can improve my skills and became a better developer.
 
-I am a Junior Web Developer based in London that loves to spend time with all that is tech-related; lately I have found that what I really enjoy is coding.
+My interest in technology and code began when I started blogging and use Mac OS X. Now I find myself learning and spending most the time with anything that is web related. 
 
-Since I read my first line of code back in 2012 I have been learning as much as I can about the world wide web. Everything is much more clear after attending Makers Academy. After this experience I want to focus on a MEAN stack and use Test Driven Development to write my code.
+I feel comfortable working with Javascript, any CSS preprocessor and lately I really enjoy use version control systems and work with the shell.
 
-## Web Development
+## Education
 
-#### `Makers Academy Aug 2014 - Oct 2014`
+- 3 grado de B.U.P. 1994-1998 (equiv to A Levels)
+- Two years of vocational training in Electricity and Network installations. 2005-2007
+
+## Job experience  
+
+> Deloitte Digital 2015 - present
+
+Deloitte Digital is one of the newest branch at Deloitte. Works with the most important brands within the UK providing digital solutions using the latest technologies in the market. My duties as an analyst are to work in projects using different skills like Javascript, CSS3, HTML5, TDD and other frontend technologies.
+
+ > Residència Ergos  2012 - 2015
+
+Residència Ergos is an elderly home placed in Barcelona, Spain. My duties as a Freelancer are web hosting, server maintenance, resolving problems, web design and code maintenance.
+
+> MakersAcademy Employers page  2014
+
+Implementation of the new design for the Makers Academy employers page. Conversion of a psd file into a fully functional web page using Sass.
+
+> Local Hero 2013 - 2014
+
+Local Hero is a cafe placed in Fulham my main duties were the preparation of vegan dishes and breakfast, chef management, improve the dishes presentation with a consequent raise of sales. 
+Before I came to London I had been working as a chef in different restaurants and hotels in Barcelona.
+
+>  Fibratel & Ambar 2007 - 2009
+
+At Fibratel and Ambar I worked as a Field Technician were my main duties were installing ethernet networks, land lines and other jobs related with telecommunications in several offices all around Barcelona. 
+
+## Web Development training
+
+> ###### Makers Academy Aug 2014 - Oct 2014
 
 I attended this twelve week web programming bootcamp, focused on learning full stack web development using cutting edge technologies.
 
-#### `JavaScript course at UOC Sept 2012 - Dec 2012`
+> ###### JavaScript course at UOC Sept 2012 - Dec 2012
 
 I completed this Front End development trimester at Open University Catalonia mainly focused in Javascript, this is the [Final Project](http://mycoffice.es/web-project/).
-
-
-## Code examples 
-
-> [MakersAcademy Employers page](http://www.makersacademy.com/employers)
-
-[Sample images for old/new design](/demos/cv_images)
-
-After I finished at @MakersAcademy I had the opportunity to implement the new design for the MakersAcademy employers page, great challenge converting a psd file into a fully functional web page only using Sass.
-
-
-> [SparkPrinter](http://spark-print-staging.herokuapp.com/)
-
-Final project at @MakersAcademy, Our team used [The Spark Core](https://www.spark.io/), a Wi-Fi development kit that lets you connect products using the cloud. Our project consists in integrate a RFID-enabled device with the Spark core and a printer. A user can setup his preferences and printing them by passing a RFID card.
-
-> [KitchenFlow](https://github.com/byverdu/kitchen_flow)
-
-Description about the process that take place when a costumer goes to a Restaurant, the code is written following Test Driven Development with Ruby and RSpec.
-
-> [SpockLizard](http://spock-lizard.herokuapp.com/)
-
-Sinatra web app where you can play with the game Rock Paper Scissors Spock and Lizard. Unit tests using Jasmine and Integration tests using Capybara, the CSS files are compiled using SCSS. 
-
 
 ## Programming Skills
 
@@ -112,26 +118,11 @@ Sinatra web app where you can play with the game Rock Paper Scissors Spock and L
 	</tr>
 </table>
 
-You can see some of my previous work by [following this link](http://byverdu.es/portfolio).
-
 ## Languages
 
 1. English, fluent, advance professional level.
 2. Spanish, native speaker.
-3. Catalan, native speaker.
-
-## Pre-Makers Academy
-
-Before attending Makers Academy I had been working as a Chef for more than ten years in all kinds of restaurants and hotels in Spain and the United Kingdom.
-
-## Education
-
-- 3 grado de B.U.P. 1994-1998 (equiv to A Levels)
-- Two years course in Mey's Hoffman restaurant. 2000-2002
-- Two years of vocational training in Electricity and Network installations. 2005-2007
-- Mac Integration Basics 10.6 OS X.  2011 
 
 ## What Albert does when he is not coding?
 
 I enjoy climbing, running outdoors, watch Tv series and read some tweets.
-
